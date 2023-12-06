@@ -12,14 +12,10 @@
 An end-to-end Machine Learning Project carried out by Group 3 Zummit Africa AI/ML Team to detect fraudulent credit card transactions. Built with FastAPI, Streamlit and Docker.
 
 ## Contributors
-- **NNEJI IFEANYI DANIEL**
-- **IFEZUE TOONNAEMEKA HILARY**
-- **SOMTOCHUKWU OGUCHIENTI**
-- **KACHUKWU OKOH**
+- **Aman Kumar Singh**
+- **Sagar Giri**
+- **Sahil Gupta**
 
-You can check out the article on Medium describing in detail how this project was carried out.
-
-https://medium.com/mlearning-ai/credit-card-fraud-detection-2527ca04c3de
 
 ## Problem Statement
 Credit card fraud is an inclusive term for fraud committed using a payment card, such as a credit card or debit card. The purpose may be to obtain goods or services or to make payment to another account, which is controlled by a criminal.
@@ -28,10 +24,7 @@ Credit card fraud is an inclusive term for fraud committed using a payment card,
 
 The machine learning model used for this web application was deployed as an API using the FastAPI framework and then accessed through a frontend interface with Streamlit.
 
-The App can be viewed [through this link](https://share.streamlit.io/nneji123/credit-card-fraud-detection/main)
 
-
-The API and its documentation can be viewed [here](https://credit-fraud-ml-api.herokuapp.com/docs) or [here.](https://credit-fraud-ml-api.herokuapp.com/redoc)
 
 ## Data Preparation
 
@@ -39,7 +32,6 @@ Publicly accessible datasets on financial services are scarce, particularly in t
 
 A synthetic dataset generated using the simulator called PaySim was used as the dataset for building the model used in this project. PaySim uses aggregated data from the private dataset to generate a synthetic dataset that resembles the normal operation of transactions and injects malicious behaviour to later evaluate the performance of fraud detection methods.
 
-[Dataset Link](https://www.kaggle.com/datasets/ealaxi/paysim1v)
 
 ### Modelling
 In this project 2 different classification algorithms were tested namely:
@@ -68,7 +60,7 @@ The final model used for the API was the **Random Forest Classifier** model whic
 To run a demo or carry out testing with the API it's best to do that with Google Colab. To run/test the API on Google Colab do the following:
 1. Clone the repository to your Google Colab Instance.
 ```
-!git clone  https://github.com/Nneji123/Credit-Card-Fraud-Detection.git
+!git clone  https://github.com/aman9211-max/CreditcardFraudDetection#readme
 ```
 2. Install the requirements by running the following codes:
 ```
@@ -182,7 +174,7 @@ Assuming you have git and heroku cli installed just carry out the following step
 1. Clone the repository
 
 ```
-git clone https://github.com/Nneji123/Credit-Card-Fraud-Detection.git
+git clone https://github.com/aman9211-max/CreditcardFraudDetection.git
 ```
 
 2. Change the working directory
