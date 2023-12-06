@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import requests as re
 
-st.title("Credit Card Fraud Detection Web App")
+st.title("Online Card Payment Fraud Detection System")
 
 st.image("image.png")
 
@@ -19,11 +19,9 @@ The notebook, model and documentation(Dockerfiles, FastAPI script, Streamlit App
 **Made by Group 3 Zummit Africa AI/ML Team**
 
 **Contributors:** 
-- **Hilary Ifezue(Group Lead)**
-- **Nneji Ifeanyi**
-- **Somtochukwu Ogechi**
-- **ThankGod Omieje**
-- **Kachukwu Okoh**
+- **Sagar Giri(Group Lead)**
+- **Aman Kumar Singh**
+- **Sahil Gupta**
 """)
 
 
