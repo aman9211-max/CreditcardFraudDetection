@@ -83,7 +83,7 @@ if st.button("Detection Result"):
     8. System Flag Fraud Status: {isflaggedfraud}
                 """)
 
-    res = re.post(f"http://backend.docker:8000/predict/",json=values)
+    res = re.post(f"http://localhost:8000/predict",json=values)
     json_str = json.dumps(res.json())
     resp = json.loads(json_str)
     
